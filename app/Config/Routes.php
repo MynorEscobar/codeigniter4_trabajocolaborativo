@@ -56,3 +56,7 @@ if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
 $routes->get('verdatos', 'Controlador::metodo');
 $routes->get('otraruta', 'OtroControlador::otroMetodo');
 $routes->get('miruta', 'MiControlador::xyz');
+$routes->get('rutanueva','Otro::metodo1');
+$routes->get('rutanueva2','Otro::metodo2');
+$routes->get('rutanueva3','Otro::metodo3');
+$routes->get('rutanueva4','Otro::metodo4');
